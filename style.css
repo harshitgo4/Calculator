@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+#mdiv {
+    padding: 10px;
+    margin-top: 3rem;
+    width:60%;
+    height:70%;
+    background-color: rgba(84, 71, 71, 0.7);
+ 
+}
+#head{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height:6rem; 
+    border: 2px rgb(255, 255, 255) solid;
+    margin-bottom: 10px;
+}
+#head p{
+    margin-top: 0px;
+    font-size: 70px;
+    text-align: center;
+    color:aliceblue;
+}
+#Darea{
+    width: 100%;
+    height:5rem; 
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction:row-reverse;
+}
+#Darea{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+#buttonsarea{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nums{
+    width: 24.5%;
+    background-color: rgb(166, 192, 212);
+    height: 25%;
+    text-align: center;
+    margin:1px 2px;
+    padding-top: 2px ;
+    font-size: 2.8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.num{
+    background-color: rgb(255, 151, 87);
+}
+#zero{
+    width: 49.5%;
+}
+.nums:hover{
+    background-color: rgb(95, 163, 205);
+}
+.num:hover{
+    background-color:  rgb(186, 94, 37);;
+}
